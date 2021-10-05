@@ -1,0 +1,11 @@
+
+.meniu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+
+}
+.meniu a{
+    color: blanchedalmond;
+    text-decoration: none;
+}

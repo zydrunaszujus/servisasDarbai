@@ -1,0 +1,10 @@
+.pozicija{
+    position:relative;
+    bottom:60px;
+    left:300px;
+}
+.puslapis{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}

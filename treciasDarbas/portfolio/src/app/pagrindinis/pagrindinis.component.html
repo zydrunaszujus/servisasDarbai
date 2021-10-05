@@ -1,0 +1,9 @@
+<br>
+<h1>Surinkti taskai:{{Taskai}}</h1>
+
+<div style="display:flex;justify-content: center;">
+<img style="width:100px" src="paveikslelis zoles">
+<div *ngFor="let x of SurinktiKiausiniai; let i=index">
+    <img class="kaiusinis" [src]="x">
+</div>
+</div>

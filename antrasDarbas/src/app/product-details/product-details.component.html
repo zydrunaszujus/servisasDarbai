@@ -1,0 +1,16 @@
+<h1>Produkto aprasymas</h1>
+
+<div *ngIf="product">
+    <h3>
+        ID : {{ product.id }}
+    </h3>
+    <h2>
+        {{ product.name }}
+    </h2>
+    <h3>
+        {{ product.price | currency }}
+    </h3>
+    <p>
+        {{ product.description }}
+    </p>
+</div>
