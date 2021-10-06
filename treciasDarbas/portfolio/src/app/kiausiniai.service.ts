@@ -19,7 +19,7 @@ this.FoundEggs.push(id);
 this.Points++;
 
   }
-GetPoitns(){
+GetPoints(){
   return this.Points;
 }
 GetFoundEggs(){

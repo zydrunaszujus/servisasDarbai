@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-
+import { KiausiniaiService } from '../kiausiniai.service';
 @Component({
   selector: 'app-pagrindinis',
-  templateUrl: './pagrindinis.component.html',
-  styleUrls: ['./pagrindinis.component.css']
+  templateUrl: '/pagrindinis.component.html',
+  styleUrls: ['/pagrindinis.component.css']
 })
 export class PagrindinisComponent implements OnInit {
 

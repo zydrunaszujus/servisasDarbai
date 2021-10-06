@@ -3,8 +3,8 @@ import { KiausiniaiService } from 'src/app/kiausiniai.service';
 
 @Component({
   selector: 'app-puslapis1',
-  templateUrl: './puslapis1.component.html',
-  styleUrls: ['./puslapis1.component.css']
+  templateUrl: '/puslapis1.component.html',
+  styleUrls: ['/puslapis1.component.css']
 })
 export class Puslapis1Component implements OnInit {
 
