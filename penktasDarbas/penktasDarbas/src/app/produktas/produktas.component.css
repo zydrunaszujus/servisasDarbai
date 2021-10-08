@@ -1,0 +1,71 @@
+.kortele {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: black;
+
+    flex-direction: column;
+
+    width: 200px;
+
+    height: 350px;
+
+}
+
+
+
+.kortele img {
+
+    width: 150px;
+
+    height: 150px;
+
+    object-fit: scale-down;
+
+}
+
+
+
+.kortele h5 {
+
+    color: white;
+
+    text-align: center;
+
+}
+
+
+
+.kortele h4 {
+
+    color: gold;
+
+    margin: 0px;
+
+}
+
+
+
+.kortele p {
+
+    margin: 20px;
+
+    font-size: 12px;
+
+    color: lightgray;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    display: -webkit-box;
+
+    -webkit-line-clamp: 2; /* number of lines to show */
+
+    -webkit-box-orient: vertical;
+
+}

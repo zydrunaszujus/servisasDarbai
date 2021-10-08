@@ -1,0 +1,8 @@
+<a routerLink="pagrindinis">Atgal</a>
+<div class=puslapis>
+
+  <div class="produktas" *ngFor="let x of produktai|async">
+     <app-produktas [objektas]="x"></app-produktas>
+   </div>
+
+</div>
